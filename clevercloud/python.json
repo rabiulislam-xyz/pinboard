@@ -1,6 +1,6 @@
 {
     "deploy": {
-        "module":"cc_django.wsgi:application",
+        "module":"pinboardpro.wsgi:application",
         "managetasks": [ "migrate" ]
     }
 }

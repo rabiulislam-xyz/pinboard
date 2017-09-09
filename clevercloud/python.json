@@ -1,0 +1,6 @@
+{
+    "deploy": {
+        "module":"cc_django.wsgi:application",
+        "managetasks": [ "migrate" ]
+    }
+}

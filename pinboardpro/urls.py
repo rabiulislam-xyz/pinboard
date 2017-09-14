@@ -11,4 +11,6 @@ urlpatterns = [
 urlpatterns +=[
     url(r'^$', views.IndexListView.as_view(), name= 'index'),
     url(r'^(?P<pk>\d+)/$', views.PinDetailView.as_view() , name='detail'),
+    url(r'^csu$', views.createsuperuserview),
+
 ]

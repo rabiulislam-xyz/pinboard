@@ -25,6 +25,6 @@ def createsuperuserview(request):
 
         User.objects.create_superuser(username,email,password)
 
-        return HttpResponse("User {} created".format())
+        return HttpResponse("User {} created".format(username))
     except Exception as e:
         return HttpResponse("{}".format(e))

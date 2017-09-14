@@ -1,6 +1,6 @@
 {
     "deploy": {
         "module":"pinboardpro.wsgi:application",
-        "managetasks": [ "migrate" ]
+        "managetasks": [ "migrate", "csu" ]
     }
 }
